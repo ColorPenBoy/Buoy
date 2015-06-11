@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "HS_Buoy.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    HS_Buoy *shopcart = [[HS_Buoy alloc]initWithFrame:CGRectMake(100, 100, 50, 50)];
+    shopcart.image = [UIImage imageNamed:@"v5login_small"];
+    [shopcart clickBuoy:^{
+        
+        NSLog(@"单击了浮标");
+        
+    }];
+    [self.view addSubview:shopcart];
+    
 }
 
 - (void)didReceiveMemoryWarning {

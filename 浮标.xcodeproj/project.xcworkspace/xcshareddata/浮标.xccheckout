@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8758F56A-4E35-4FB9-A513-F04EF64F4D40</string>
+	<key>IDESourceControlProjectName</key>
+	<string>浮标</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3C358341546A36B97A29AEED1A92D3551D0E6B90</key>
+		<string>github.com:ColorPenBoy/Buoy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>浮标.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3C358341546A36B97A29AEED1A92D3551D0E6B90</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ColorPenBoy/Buoy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3C358341546A36B97A29AEED1A92D3551D0E6B90</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3C358341546A36B97A29AEED1A92D3551D0E6B90</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E6%B5%AE%E6%A0%87</string>
+		</dict>
+	</array>
+</dict>
+</plist>
