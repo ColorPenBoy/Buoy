@@ -2,10 +2,9 @@
 //  XcBuoy.h
 //  浮标xc
 //
-//  Created by 416295264@qq.com on 15/6/9.
-//  Copyright (c) 2015年 416295264@qq.com. All rights reserved.
+//  Created by colorPen on 15/6/11.
+//  Copyright (c) 2015年 colorPen. All rights reserved.
 //
-
 #import <UIKit/UIKit.h>
 
 @interface XcBuoy : UIImageView

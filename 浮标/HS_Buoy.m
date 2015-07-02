@@ -5,7 +5,6 @@
 //  Created by colorPen on 15/6/11.
 //  Copyright (c) 2015年 colorPen. All rights reserved.
 //
-
 #import "HS_Buoy.h"
 
 #define IPONE_HEIGHT    [UIScreen mainScreen].bounds.size.height

@@ -21,7 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     HS_Buoy *shopcart = [[HS_Buoy alloc]initWithFrame:CGRectMake(100, 100, 50, 50)];
-    shopcart.image = [UIImage imageNamed:@"v5login_small"];
+    shopcart.image = [UIImage imageNamed:@"small"];
     [shopcart clickBuoy:^{
         
         NSLog(@"单击了浮标");
