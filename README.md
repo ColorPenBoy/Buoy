@@ -5,12 +5,11 @@
 * 使用方法：
 
 ``` objective-c
-HS_Buoy * buoy = [[HS_Buoy alloc]initWithFrame:CGRectMake(100, 100, 50, 50)];
-buoy.image = [UIImage imageNamed:@"MyBuoy"];
+HSBuoy * buoy = [[HSBuoy alloc]initWithFrame:CGRectMake(100, 100, 50, 50)];
+buoy.image = [UIImage imageNamed:@"YourBuoyImageName"];
 [buoy clickBuoy:^{
     // Click Buoy Call Back    
 	NSLog(@"Click Buoy");        
 }];
-[self.view addSubview:shopcart];
+[self.view addSubview:buoy];
 ```
-
