@@ -12,7 +12,7 @@
 
 static CGFloat const statueHeight = 20.0;
 static CGFloat const tabbarHeight = 49.0;
-static CGFloat const navigationHeight = 64.0;
+//static CGFloat const navigationHeight = 64.0;
 static NSTimeInterval const durationTime = 0.3;
 
 @interface HSBuoy ()
