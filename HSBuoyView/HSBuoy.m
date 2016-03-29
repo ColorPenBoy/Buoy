@@ -5,7 +5,7 @@
 //  Created by colorPen on 15/6/11.
 //  Copyright (c) 2015年 colorPen. All rights reserved.
 //
-#import "HS_Buoy.h"
+#import "HSBuoy.h"
 
 #define IPONE_HEIGHT    [UIScreen mainScreen].bounds.size.height
 #define IPONE_WIDTH     [UIScreen mainScreen].bounds.size.width
@@ -15,7 +15,7 @@ static CGFloat const tabbarHeight = 49.0;
 static CGFloat const navigationHeight = 64.0;
 static NSTimeInterval const durationTime = 0.3;
 
-@interface HS_Buoy ()
+@interface HSBuoy ()
 
 @property (nonatomic, assign) CGFloat xDistance; //触摸点和中心点x方向移动的距离
 @property (nonatomic, assign) CGFloat yDistance; //触摸点和中心点y方向移动的距离
@@ -30,7 +30,7 @@ static NSTimeInterval const durationTime = 0.3;
 @end
 
 
-@implementation HS_Buoy
+@implementation HSBuoy
 
 - (id)initWithFrame:(CGRect)frame
 {

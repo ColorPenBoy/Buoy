@@ -10,7 +10,7 @@
 
 typedef void (^HS_BuoyClickBlock)();
 
-@interface HS_Buoy : UIImageView
+@interface HSBuoy : UIImageView
 
 /**
  *  隐藏浮标

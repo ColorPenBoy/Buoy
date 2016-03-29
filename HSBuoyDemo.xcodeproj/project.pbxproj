@@ -13,7 +13,7 @@
 		F0FE0C251CAA67470039FECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0FE0C231CAA67470039FECB /* Main.storyboard */; };
 		F0FE0C271CAA67470039FECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0FE0C261CAA67470039FECB /* Assets.xcassets */; };
 		F0FE0C2A1CAA67470039FECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0FE0C281CAA67470039FECB /* LaunchScreen.storyboard */; };
-		F0FE0C331CAA67600039FECB /* HS_Buoy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FE0C321CAA67600039FECB /* HS_Buoy.m */; };
+		F0FE0C3B1CAA72750039FECB /* HSBuoy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FE0C3A1CAA72750039FECB /* HSBuoy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		F0FE0C261CAA67470039FECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0FE0C291CAA67470039FECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0FE0C2B1CAA67470039FECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0FE0C311CAA67600039FECB /* HS_Buoy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS_Buoy.h; sourceTree = "<group>"; };
-		F0FE0C321CAA67600039FECB /* HS_Buoy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HS_Buoy.m; sourceTree = "<group>"; };
+		F0FE0C391CAA72750039FECB /* HSBuoy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSBuoy.h; sourceTree = "<group>"; };
+		F0FE0C3A1CAA72750039FECB /* HSBuoy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSBuoy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,7 @@
 		F0FE0C0E1CAA67470039FECB = {
 			isa = PBXGroup;
 			children = (
+				F0FE0C381CAA72750039FECB /* HSBuoyView */,
 				F0FE0C191CAA67470039FECB /* HSBuoyDemo */,
 				F0FE0C181CAA67470039FECB /* Products */,
 			);
@@ -65,8 +66,6 @@
 				F0FE0C1E1CAA67470039FECB /* AppDelegate.m */,
 				F0FE0C201CAA67470039FECB /* ViewController.h */,
 				F0FE0C211CAA67470039FECB /* ViewController.m */,
-				F0FE0C311CAA67600039FECB /* HS_Buoy.h */,
-				F0FE0C321CAA67600039FECB /* HS_Buoy.m */,
 				F0FE0C231CAA67470039FECB /* Main.storyboard */,
 				F0FE0C261CAA67470039FECB /* Assets.xcassets */,
 				F0FE0C281CAA67470039FECB /* LaunchScreen.storyboard */,
@@ -82,6 +81,15 @@
 				F0FE0C1B1CAA67470039FECB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0FE0C381CAA72750039FECB /* HSBuoyView */ = {
+			isa = PBXGroup;
+			children = (
+				F0FE0C391CAA72750039FECB /* HSBuoy.h */,
+				F0FE0C3A1CAA72750039FECB /* HSBuoy.m */,
+			);
+			path = HSBuoyView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0FE0C221CAA67470039FECB /* ViewController.m in Sources */,
-				F0FE0C331CAA67600039FECB /* HS_Buoy.m in Sources */,
+				F0FE0C3B1CAA72750039FECB /* HSBuoy.m in Sources */,
 				F0FE0C1F1CAA67470039FECB /* AppDelegate.m in Sources */,
 				F0FE0C1C1CAA67470039FECB /* main.m in Sources */,
 			);
@@ -308,6 +316,7 @@
 				F0FE0C301CAA67470039FECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
